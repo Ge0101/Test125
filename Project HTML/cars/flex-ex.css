@@ -1,0 +1,38 @@
+.flex-container {
+    height: 100;
+    display: flex;
+    background-color: aqua;
+    flex-flow: row wrap;
+}
+
+.flex-container > div {
+    border-style: outset;
+    background-color: grey;
+    margin: 10x;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+#row {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+#row-reverse {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#column {
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+}
+#column-reverse {
+    align-items: normal;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+

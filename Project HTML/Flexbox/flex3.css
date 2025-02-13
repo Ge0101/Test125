@@ -1,0 +1,35 @@
+
+.flex-container {
+  display: flex;
+  border-style: solid;
+  background-color: DodgerBlue;
+  flex-wrap: nowrap; /* this is the default */
+  flex-wrap: wrap;
+
+}
+
+.flex-container > div {
+  border-style: outset;
+  background-color: grey;
+  width:100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+#row{
+  justify-content: center;
+}
+
+#row-reverse{
+ justify-content: flex-start;
+}
+#column{
+  justify-content: flex-end;
+}
+
+#column-reverse{
+ justify-content: space-evenly;
+}
